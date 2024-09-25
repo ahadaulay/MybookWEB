@@ -1,0 +1,119 @@
+header {
+  height: 80px;
+  background-color: #b99470;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px;
+}
+
+.formContainer {
+  width: 650px;
+  height: 587px;
+  background-color: #fefae0;
+  color: #b99470;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.form {
+  width: 500px;
+  height: 60px;
+  border: none;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+#bookFormIsComplete {
+  width: 20px;
+  height: 20px;
+}
+
+#bookFormSubmit {
+  width: 500px;
+  height: 60px;
+  border: none;
+  background-color: #b99470;
+  color: white;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+}
+
+main {
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #b99470;
+}
+
+.search {
+  width: 500px;
+  height: 160px;
+  border: #b99470 solid 2px;
+  border-radius: 10px;
+  padding: 10px;
+  color: #b99470;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.searchForm {
+  width: 300px;
+  height: 30px;
+  border: 1px #b99470 solid;
+  border-radius: 5px;
+}
+
+#searchSubmit {
+  width: 70px;
+  height: 30px;
+  background-color: #b99470;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#incompleteBookList {
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#completeBookList {
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  width: 100%;
+  border: 2px #b99470 solid;
+  color: #b99470;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.card-button {
+  width: 150px;
+  height: 30px;
+  color: #b99470;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px #b99470 solid;
+  background-color: transparent;
+  border-radius: 5px;
+}
